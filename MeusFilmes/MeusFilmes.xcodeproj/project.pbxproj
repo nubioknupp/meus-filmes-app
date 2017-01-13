@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		8CA9C4AA1E2955F60070CBA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA9C4A91E2955F60070CBA0 /* AppDelegate.swift */; };
-		8CA9C4AC1E2955F60070CBA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA9C4AB1E2955F60070CBA0 /* ViewController.swift */; };
 		8CA9C4AF1E2955F60070CBA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CA9C4AD1E2955F60070CBA0 /* Main.storyboard */; };
 		8CA9C4B11E2955F60070CBA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CA9C4B01E2955F60070CBA0 /* Assets.xcassets */; };
 		8CA9C4B41E2955F60070CBA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CA9C4B21E2955F60070CBA0 /* LaunchScreen.storyboard */; };
+		8CA9C4C01E295BC80070CBA0 /* FilmeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA9C4BF1E295BC80070CBA0 /* FilmeViewController.swift */; };
+		8CA9C4C21E295C510070CBA0 /* FilmeCelula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA9C4C11E295C510070CBA0 /* FilmeCelula.swift */; };
+		8CA9C4C41E295D250070CBA0 /* Filme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA9C4C31E295D250070CBA0 /* Filme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8CA9C4A61E2955F60070CBA0 /* MeusFilmes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeusFilmes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CA9C4A91E2955F60070CBA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8CA9C4AB1E2955F60070CBA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8CA9C4AE1E2955F60070CBA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CA9C4B01E2955F60070CBA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CA9C4B31E2955F60070CBA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CA9C4B51E2955F60070CBA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CA9C4BF1E295BC80070CBA0 /* FilmeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmeViewController.swift; sourceTree = "<group>"; };
+		8CA9C4C11E295C510070CBA0 /* FilmeCelula.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmeCelula.swift; sourceTree = "<group>"; };
+		8CA9C4C31E295D250070CBA0 /* Filme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 		8CA9C4A81E2955F60070CBA0 /* MeusFilmes */ = {
 			isa = PBXGroup;
 			children = (
+				8CA9C4C31E295D250070CBA0 /* Filme.swift */,
 				8CA9C4A91E2955F60070CBA0 /* AppDelegate.swift */,
-				8CA9C4AB1E2955F60070CBA0 /* ViewController.swift */,
+				8CA9C4C11E295C510070CBA0 /* FilmeCelula.swift */,
+				8CA9C4BF1E295BC80070CBA0 /* FilmeViewController.swift */,
 				8CA9C4AD1E2955F60070CBA0 /* Main.storyboard */,
 				8CA9C4B01E2955F60070CBA0 /* Assets.xcassets */,
 				8CA9C4B21E2955F60070CBA0 /* LaunchScreen.storyboard */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CA9C4AC1E2955F60070CBA0 /* ViewController.swift in Sources */,
 				8CA9C4AA1E2955F60070CBA0 /* AppDelegate.swift in Sources */,
+				8CA9C4C01E295BC80070CBA0 /* FilmeViewController.swift in Sources */,
+				8CA9C4C21E295C510070CBA0 /* FilmeCelula.swift in Sources */,
+				8CA9C4C41E295D250070CBA0 /* Filme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +305,7 @@
 				8CA9C4BA1E2955F60070CBA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
