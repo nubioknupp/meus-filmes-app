@@ -91,6 +91,16 @@ class FilmeViewController: UITableViewController {
         
         return celula;
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if(segue.identifier == "detalheFilme"){
+            if let indexPath = tableView.indexPathForSelectedRow {
+                let filmeSelecionado = filmes[indexPath.row];
+                let viewControllerDestino = segue.destination as! DetalhesViewController;
+                viewControllerDestino.filme = filmeSelecionado;
+            }
+        }
+    }
 
 
 }
